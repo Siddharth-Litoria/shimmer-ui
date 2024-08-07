@@ -1,6 +1,6 @@
 import  { useEffect, useState } from 'react'
 import Card from './Card';
-import Shimmer from './Shimmer';
+import Shimmer from '../Shimmer/Shimmer';
 
 function Meme() {
     const [meme,setMeme] = useState([]);
